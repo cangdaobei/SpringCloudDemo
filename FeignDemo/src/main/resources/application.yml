@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feignDemo
+server:
+  port: 3001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
