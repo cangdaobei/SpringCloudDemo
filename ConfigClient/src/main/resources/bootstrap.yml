@@ -3,8 +3,8 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:4001/
+      uri: http://localhost:4001
   application:
     name: cangdao
 server:
-  port: 2001
+  port: 4002

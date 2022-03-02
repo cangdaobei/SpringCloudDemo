@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    #激活本地配置
+    active: native
+  #cloud:
+   # config:
+    #  server:
+     #   native:
+          #指定配置文件的位置
+          #searchLocations: file:F:/properties/
+        #git:
+         # uri: https://github.com/cangdaobei/SpringCloudDemo
+          #searchPaths: tree/master/configServer
+          #username: cangdaobei
+          #password: zhang19951007.
+server:
+  port: 4001
