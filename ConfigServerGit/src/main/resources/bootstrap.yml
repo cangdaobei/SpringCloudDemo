@@ -1,0 +1,13 @@
+server:
+  port: 4003
+spring:
+  application:
+    name: ConfigServerGit
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cangdaobei/SpringCloudDemo
+          search-paths: config-repo
+          username: cangdaobei
+          password: zhang19951007.
